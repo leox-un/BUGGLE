@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 960144273f4d9d248a90540fbb0a5367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BallScript
-  moveForce: 5
+  moveForce: 0.7
 --- !u!96 &6960628281367612466
 TrailRenderer:
   serializedVersion: 4
