@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: a1fe436fbdbd85a429bcbe25b1de6dc5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6434396310857607722
+    second: buggle pegs tp_0
+  - first:
+      213: 1602733002550894459
+    second: buggle pegs tp_1
+  - first:
+      213: 709907576966759731
+    second: buggle pegs tp_2
+  - first:
+      213: 488081056351467189
+    second: buggle pegs tp_3
+  - first:
+      213: 8220539787385432382
+    second: buggle pegs tp_4
+  - first:
+      213: -4557250764063266133
+    second: buggle pegs tp_5
+  - first:
+      213: 8931761018950827731
+    second: buggle pegs tp_6
+  - first:
+      213: 2068487166782705209
+    second: buggle pegs tp_7
+  - first:
+      213: 102643667726637128
+    second: buggle pegs tp_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buggle pegs tp_0
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1541
+        width: 999
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a60c49a519b4950800000000000000
+      internalID: 6434396310857607722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp_1
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 1566
+        width: 526
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f57d69c2d0e3610800000000000000
+      internalID: 1602733002550894459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp_2
+      rect:
+        serializedVersion: 2
+        x: 3214
+        y: 1670
+        width: 428
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33546741e291ad900800000000000000
+      internalID: 709907576966759731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp_3
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 944
+        width: 999
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b63d61822306c600800000000000000
+      internalID: 488081056351467189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp_4
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 928
+        width: 740
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39e211e169351270800000000000000
+      internalID: 8220539787385432382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp_5
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 186
+        width: 942
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baaa1af439461c0c0800000000000000
+      internalID: -4557250764063266133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp_6
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 974
+        width: 620
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3debe31035df3fb70800000000000000
+      internalID: 8931761018950827731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp_7
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 268
+        width: 999
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e898e6e1eb4bc10800000000000000
+      internalID: 2068487166782705209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp_8
+      rect:
+        serializedVersion: 2
+        x: 3201
+        y: 156
+        width: 722
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8481a493fd9ac6100800000000000000
+      internalID: 102643667726637128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      buggle pegs tp_0: 6434396310857607722
+      buggle pegs tp_1: 1602733002550894459
+      buggle pegs tp_2: 709907576966759731
+      buggle pegs tp_3: 488081056351467189
+      buggle pegs tp_4: 8220539787385432382
+      buggle pegs tp_5: -4557250764063266133
+      buggle pegs tp_6: 8931761018950827731
+      buggle pegs tp_7: 2068487166782705209
+      buggle pegs tp_8: 102643667726637128
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

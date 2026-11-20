@@ -1,0 +1,68 @@
+using UnityEngine;
+using UnityEngine.InputSystem; //Make sure you have this.
+
+public class BallLauncher : MonoBehaviour
+{
+
+    //I will leave comments explaining what the script does and how to set it up in your Unity project or want to mess around with it.
+    //lmk me know if you have any questions, it breaks, or need help setting it up. :)
+    //-Sjofn
+
+    [Header("Launcher Objects")]
+
+    [Tooltip("Drag and drop your camera object from the scene list here")]
+    [SerializeField] Camera mainCamera; //!!!MAKE SURE YOUR CAMERA IS SET TO ORTHOGRAPHIC AND NOT PERSPECTIVE!!!
+    [Tooltip("Drag and drop your ball prefab from your prefabs folder here")]
+    [SerializeField] GameObject ballPrefab; 
+    [Tooltip("Drag and drop your spawn location Transform from the scene list here")]
+    [SerializeField] Transform spawnLocation; 
+
+    [Header("Launcher Objects")]
+
+    [Tooltip("Dictates how fast the ball will come out of the launcher")]
+    [SerializeField] float launcherForce; 
+
+    void Update()
+    {
+
+        Vector2 mousePosition = Mouse.current.position.ReadValue();
+        Debug.Log(mousePosition);
+        //This finds your mouse position every frame.
+
+        Vector3 worldPosition = mainCamera.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y, mainCamera.nearClipPlane));
+        //sets your mouse position relative to the camera position.
+
+        Vector3 rotateDirection = (worldPosition - transform.position).normalized;
+        rotateDirection.z = 0;
+        //sets the rotate direction to the mouse position relative to the camera position.
+
+        float angle = Mathf.Atan2(rotateDirection.y, rotateDirection.x) * Mathf.Rad2Deg;
+        //turns this rotation direction into an angle
+
+        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+        //rotates the game object to said angle!
+
+        if(Input.GetMouseButtonDown(0)) //"If you click left mouse button:
+        {
+            SpawnBall(); //calls the SpawnBall method below! VVV
+        }
+    }
+
+
+    public void SpawnBall()
+    {
+        Debug.Log("Fired Ball");
+
+        GameObject ballPrefabClone = Instantiate(ballPrefab, spawnLocation.position, spawnLocation.rotation);
+        //spawns in a ball at the position and rotation of the spawnLocation Transform.
+        //Basically, it spawns it ontop of itself.
+
+        Rigidbody2D ballCloneRB = ballPrefabClone.GetComponent<Rigidbody2D>();
+        //grabs instantiated objects rigidbody
+
+        ballCloneRB.AddForce(-spawnLocation.up * launcherForce, ForceMode2D.Impulse);
+        //adds force down and multiplied by the launcherForce variable.
+
+    }
+
+}
