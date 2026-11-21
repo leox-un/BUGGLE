@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8688479929367076628}
   - component: {fileID: 5257411998309478465}
   - component: {fileID: 6960628281367612466}
+  - component: {fileID: 5418465351507324436}
   m_Layer: 0
   m_Name: PLAYER BALL TRAIL
   m_TagString: Ball
@@ -171,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 960144273f4d9d248a90540fbb0a5367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BallScript
-  moveForce: 0.7
+  moveForce: 0.8
 --- !u!96 &6960628281367612466
 TrailRenderer:
   serializedVersion: 4
@@ -291,3 +292,15 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
+--- !u!114 &5418465351507324436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048841371332956544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c63931b0958744fa0be764fbd7ee85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KillBox
