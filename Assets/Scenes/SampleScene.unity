@@ -897,6 +897,8 @@ MonoBehaviour:
   ballPrefab: {fileID: 2048841371332956544, guid: 4d9128721c37d2d499cb320655b8fb4e, type: 3}
   spawnLocation: {fileID: 733208152}
   launcherForce: 7
+  centerAngle: -90
+  maximumRotation: 65
 --- !u!4 &649046085
 Transform:
   m_ObjectHideFlags: 0

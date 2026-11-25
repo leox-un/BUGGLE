@@ -22,6 +22,10 @@ public class BallLauncher : MonoBehaviour
     [Tooltip("Dictates how fast the ball will come out of the launcher")]
     [SerializeField] float launcherForce; 
 
+    [Header("Launcher Rotation Limit")]
+    [SerializeField] float centerAngle;
+    [SerializeField] float maximumRotation;
+
     void Update()
     {
 
@@ -39,7 +43,16 @@ public class BallLauncher : MonoBehaviour
         float angle = Mathf.Atan2(rotateDirection.y, rotateDirection.x) * Mathf.Rad2Deg;
         //turns this rotation direction into an angle
 
-        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+        float difference = Mathf.DeltaAngle(centerAngle, angle);
+        //calculates the difference between current angle and the center
+
+        float clampedDifference = Mathf.Clamp(difference, -maximumRotation, maximumRotation);
+        //clamps the difference to the maximum rotation angle (so you can't aim upwards)
+
+        float clampedAngle = centerAngle + clampedDifference;
+        //adds the clamped difference to move the launcher
+
+        transform.rotation = Quaternion.Euler(new Vector3(0, 0, clampedAngle));
         //rotates the game object to said angle!
 
         if(Input.GetMouseButtonDown(0)) //"If you click left mouse button:
