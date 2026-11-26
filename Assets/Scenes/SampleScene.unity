@@ -279,7 +279,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 709907576966759731, guid: a1fe436fbdbd85a429bcbe25b1de6dc5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b33238169f7dc4b4a819c59be8e87c0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -317,8 +317,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e237e4cd8df5d434e970841a3f7d51b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBallScript
+  sprRenderer: {fileID: 313804341}
   timesHitCounter: 0
-  hitsNeededToBreak: 2
+  currentHitState: -1
+  hitStates:
+  - hitGreaterThan: 1
+    sprite: {fileID: 21300000, guid: 2a9540ebf87918f47b863138abcfcb9f, type: 3}
+  - hitGreaterThan: 2
+    sprite: {fileID: 21300000, guid: 3d668f807a5f4dd478e4d1d64341f034, type: 3}
+  - hitGreaterThan: 3
+    sprite: {fileID: 0}
 --- !u!58 &313804344
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -458,7 +466,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 6434396310857607722, guid: a1fe436fbdbd85a429bcbe25b1de6dc5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b33238169f7dc4b4a819c59be8e87c0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -496,8 +504,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e237e4cd8df5d434e970841a3f7d51b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBallScript
+  sprRenderer: {fileID: 404016245}
   timesHitCounter: 0
-  hitsNeededToBreak: 2
+  currentHitState: -1
+  hitStates:
+  - hitGreaterThan: 1
+    sprite: {fileID: 21300000, guid: 2a9540ebf87918f47b863138abcfcb9f, type: 3}
+  - hitGreaterThan: 2
+    sprite: {fileID: 21300000, guid: 3d668f807a5f4dd478e4d1d64341f034, type: 3}
+  - hitGreaterThan: 3
+    sprite: {fileID: 0}
 --- !u!61 &404016248
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -536,7 +552,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.99244, y: 3.26}
+    oldSize: {x: 7.85, y: 7.85}
     newSize: {x: 9.99244, y: 3.26}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -993,8 +1009,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e237e4cd8df5d434e970841a3f7d51b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBallScript
+  sprRenderer: {fileID: 910594574}
   timesHitCounter: 0
-  hitsNeededToBreak: 2
+  currentHitState: -1
+  hitStates:
+  - hitGreaterThan: 1
+    sprite: {fileID: 21300000, guid: 2a9540ebf87918f47b863138abcfcb9f, type: 3}
+  - hitGreaterThan: 2
+    sprite: {fileID: 21300000, guid: 3d668f807a5f4dd478e4d1d64341f034, type: 3}
+  - hitGreaterThan: 3
+    sprite: {fileID: 0}
 --- !u!58 &910594573
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1080,7 +1104,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 709907576966759731, guid: a1fe436fbdbd85a429bcbe25b1de6dc5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b33238169f7dc4b4a819c59be8e87c0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1717,8 +1741,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1253304426}
   - component: {fileID: 1253304425}
-  - component: {fileID: 1253304427}
   - component: {fileID: 1253304428}
+  - component: {fileID: 1253304427}
   m_Layer: 0
   m_Name: buggle pegs tp_1
   m_TagString: Untagged
@@ -1775,7 +1799,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 1602733002550894459, guid: a1fe436fbdbd85a429bcbe25b1de6dc5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b33238169f7dc4b4a819c59be8e87c0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1813,8 +1837,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e237e4cd8df5d434e970841a3f7d51b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBallScript
+  sprRenderer: {fileID: 1253304425}
   timesHitCounter: 0
-  hitsNeededToBreak: 2
+  currentHitState: -1
+  hitStates:
+  - hitGreaterThan: 1
+    sprite: {fileID: 21300000, guid: 2a9540ebf87918f47b863138abcfcb9f, type: 3}
+  - hitGreaterThan: 2
+    sprite: {fileID: 21300000, guid: 3d668f807a5f4dd478e4d1d64341f034, type: 3}
+  - hitGreaterThan: 3
+    sprite: {fileID: 0}
 --- !u!58 &1253304428
 CircleCollider2D:
   m_ObjectHideFlags: 0
