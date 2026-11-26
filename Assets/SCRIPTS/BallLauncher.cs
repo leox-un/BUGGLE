@@ -27,6 +27,7 @@ public class BallLauncher : MonoBehaviour
     [Header("Launcher Rotation Limit")]
     [SerializeField] float centerAngle;
     [SerializeField] float maximumRotation;
+    public float angle;
     
     [Header("State Tracking")]
     [SerializeField] public int maxBalls = 10;
@@ -34,6 +35,7 @@ public class BallLauncher : MonoBehaviour
     [SerializeField] bool hasActiveBalls;
     [SerializeField] List<GameObject> activeBalls;
     public Action<GameObject> _TryReEnableFiring;
+
 
     void Awake()
     {
@@ -59,7 +61,7 @@ public class BallLauncher : MonoBehaviour
     public void PositionCannon()
     {
         Vector2 mousePosition = Mouse.current.position.ReadValue();
-        Debug.Log(mousePosition);
+        //Debug.Log(mousePosition);
         //This finds your mouse position every frame.
 
         Vector3 worldPosition = mainCamera.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y, mainCamera.nearClipPlane));
@@ -69,7 +71,7 @@ public class BallLauncher : MonoBehaviour
         rotateDirection.z = 0;
         //sets the rotate direction to the mouse position relative to the camera position.
 
-        float angle = Mathf.Atan2(rotateDirection.y, rotateDirection.x) * Mathf.Rad2Deg;
+        angle = Mathf.Atan2(rotateDirection.y, rotateDirection.x) * Mathf.Rad2Deg;
         //turns this rotation direction into an angle
 
         float difference = Mathf.DeltaAngle(centerAngle, angle);
