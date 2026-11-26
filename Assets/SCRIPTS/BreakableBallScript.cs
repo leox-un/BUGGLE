@@ -17,7 +17,6 @@ public class BreakableBallScript : MonoBehaviour
     // Last HitState is always dead hit state, and doesnt need a Sprite.
     [Tooltip("Last HitState is always dead hit state, and doesnt need a Sprite.")]
     public List<HitState> hitStates = new();
-
     void Awake()
     {
         // callback for destroy on the final hitstate's onEnterHitState

@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem; //Make sure you have this.
 
@@ -25,10 +27,37 @@ public class BallLauncher : MonoBehaviour
     [Header("Launcher Rotation Limit")]
     [SerializeField] float centerAngle;
     [SerializeField] float maximumRotation;
+    
+    [Header("State Tracking")]
+    [SerializeField] public int maxBalls = 10;
+    [SerializeField] public int remainingBalls = 0;
+    [SerializeField] bool hasActiveBalls;
+    [SerializeField] List<GameObject> activeBalls;
+    public Action<GameObject> _TryReEnableFiring;
+
+    void Awake()
+    {
+        _TryReEnableFiring = TryReEnableFiring;
+    }
+
+    void OnEnable()
+    {
+        remainingBalls = maxBalls;
+    }
 
     void Update()
     {
+        if(!hasActiveBalls)
+            PositionCannon();
+    
+        if(Input.GetMouseButtonDown(0)) //"If you click left mouse button:
+        {
+            SpawnBall(); //calls the SpawnBall method below! VVV
+        }
+    }
 
+    public void PositionCannon()
+    {
         Vector2 mousePosition = Mouse.current.position.ReadValue();
         Debug.Log(mousePosition);
         //This finds your mouse position every frame.
@@ -54,19 +83,31 @@ public class BallLauncher : MonoBehaviour
 
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, clampedAngle));
         //rotates the game object to said angle!
+    }
 
-        if(Input.GetMouseButtonDown(0)) //"If you click left mouse button:
-        {
-            SpawnBall(); //calls the SpawnBall method below! VVV
-        }
+    public void TryReEnableFiring(GameObject removedBall)
+    {
+        activeBalls.Remove(removedBall);
+        if (activeBalls.Count <= 0)
+            hasActiveBalls = false;
     }
 
 
     public void SpawnBall()
     {
+        if (remainingBalls <= 0) return;
+        if (hasActiveBalls) return;
+        
+        hasActiveBalls = true;
+        remainingBalls--;
+        
         Debug.Log("Fired Ball");
 
         GameObject ballPrefabClone = Instantiate(ballPrefab, spawnLocation.position, spawnLocation.rotation);
+        activeBalls.Add(ballPrefabClone);
+        var ball = ballPrefabClone.GetComponent<Killable>();
+        ball.OnKill = _TryReEnableFiring;
+        
         //spawns in a ball at the position and rotation of the spawnLocation Transform.
         //Basically, it spawns it ontop of itself.
 
@@ -75,7 +116,6 @@ public class BallLauncher : MonoBehaviour
 
         ballCloneRB.AddForce(-spawnLocation.up * launcherForce, ForceMode2D.Impulse);
         //adds force down and multiplied by the launcherForce variable.
-
     }
 
 }

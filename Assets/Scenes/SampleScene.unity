@@ -915,6 +915,10 @@ MonoBehaviour:
   launcherForce: 7
   centerAngle: -90
   maximumRotation: 65
+  maxBalls: 10
+  remainingBalls: 0
+  hasActiveBalls: 0
+  activeBalls: []
 --- !u!4 &649046085
 Transform:
   m_ObjectHideFlags: 0
@@ -2055,7 +2059,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1991002454}
   - component: {fileID: 1991002453}
-  - component: {fileID: 1991002452}
   m_Layer: 0
   m_Name: KILLBOX
   m_TagString: Kill
@@ -2063,18 +2066,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1991002452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991002451}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0c63931b0958744fa0be764fbd7ee85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::KillBox
 --- !u!61 &1991002453
 BoxCollider2D:
   m_ObjectHideFlags: 0
