@@ -88,6 +88,13 @@ public class BallLauncher : MonoBehaviour
     public void TryReEnableFiring(GameObject removedBall)
     {
         activeBalls.Remove(removedBall);
+
+        if (remainingBalls <= 0)
+        {
+            GameManagement.Instance.Loose();
+            return;
+        }
+        
         if (activeBalls.Count <= 0)
             hasActiveBalls = false;
     }
