@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 5d940371b00a42c4ba3dcd0831a19a08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3544991213391679741
+    second: buggle pegs tp dropshadow (1)_0
+  - first:
+      213: 3621716625628596494
+    second: buggle pegs tp dropshadow (1)_1
+  - first:
+      213: 829189475275974759
+    second: buggle pegs tp dropshadow (1)_2
+  - first:
+      213: 7766607441762734837
+    second: buggle pegs tp dropshadow (1)_3
+  - first:
+      213: 602053813719785091
+    second: buggle pegs tp dropshadow (1)_4
+  - first:
+      213: -353375850426154458
+    second: buggle pegs tp dropshadow (1)_5
+  - first:
+      213: 1631460059131636237
+    second: buggle pegs tp dropshadow (1)_6
+  - first:
+      213: -4826109321505348936
+    second: buggle pegs tp dropshadow (1)_7
+  - first:
+      213: 7944693023142000602
+    second: buggle pegs tp dropshadow (1)_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buggle pegs tp dropshadow (1)_0
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2453
+        width: 1124
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df09716f9b6523130800000000000000
+      internalID: 3544991213391679741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp dropshadow (1)_1
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 2417
+        width: 667
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0908b3151ce24230800000000000000
+      internalID: 3621716625628596494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp dropshadow (1)_2
+      rect:
+        serializedVersion: 2
+        x: 3628
+        y: 2365
+        width: 567
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768215d3f6fd18b00800000000000000
+      internalID: 829189475275974759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp dropshadow (1)_3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1359
+        width: 1124
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f25c2ca15888cb60800000000000000
+      internalID: 7766607441762734837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp dropshadow (1)_4
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 1344
+        width: 883
+        height: 819
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38edf66f0ccea5800800000000000000
+      internalID: 602053813719785091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp dropshadow (1)_5
+      rect:
+        serializedVersion: 2
+        x: 3546
+        y: 1373
+        width: 743
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622c52b498e881bf0800000000000000
+      internalID: -353375850426154458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp dropshadow (1)_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 302
+        width: 1124
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a67c9a74c14a610800000000000000
+      internalID: 1631460059131636237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp dropshadow (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 187
+        width: 1081
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2e8745427360db0800000000000000
+      internalID: -4826109321505348936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggle pegs tp dropshadow (1)_8
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 247
+        width: 865
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad737e53638314e60800000000000000
+      internalID: 7944693023142000602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      buggle pegs tp dropshadow (1)_0: 3544991213391679741
+      buggle pegs tp dropshadow (1)_1: 3621716625628596494
+      buggle pegs tp dropshadow (1)_2: 829189475275974759
+      buggle pegs tp dropshadow (1)_3: 7766607441762734837
+      buggle pegs tp dropshadow (1)_4: 602053813719785091
+      buggle pegs tp dropshadow (1)_5: -353375850426154458
+      buggle pegs tp dropshadow (1)_6: 1631460059131636237
+      buggle pegs tp dropshadow (1)_7: -4826109321505348936
+      buggle pegs tp dropshadow (1)_8: 7944693023142000602
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
