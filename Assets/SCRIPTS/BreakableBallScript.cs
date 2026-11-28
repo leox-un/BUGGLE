@@ -8,6 +8,7 @@ public class BreakableBallScript : MonoBehaviour
 
     [Header("Refs")]
     public SpriteRenderer sprRenderer;
+    public ParticleSystem particles;
 
     [Header("Ball Durability")]
     [Tooltip("Times hit")]
@@ -45,6 +46,10 @@ public class BreakableBallScript : MonoBehaviour
         
         if (nextHitState >= hitStates.Count) return; // bounds check
         if (hitCount < hitStates[nextHitState].hitGreaterThan) return; // not reached hit state yet
+        
+        // play FX 
+        Instantiate(particles, transform.position, Quaternion.identity);
+        Debug.Log("hello i am trying to play");
         
         sprRenderer.sprite = hitStates[nextHitState].sprite;
         currentHitState = nextHitState; // increment state

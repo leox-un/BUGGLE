@@ -2423,6 +2423,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 324912425}
     m_Modifications:
+    - target: {fileID: 2999742794980497710, guid: 5aeb407af40fa994d843c56b5db3a7ea, type: 3}
+      propertyPath: particles
+      value: 
+      objectReference: {fileID: 5584503800399843308, guid: 1be5c5e67e4540e46a3a3abd3be01e20, type: 3}
     - target: {fileID: 4509296903045437334, guid: 5aeb407af40fa994d843c56b5db3a7ea, type: 3}
       propertyPath: m_Name
       value: buggle pegs tp_1
@@ -2524,6 +2528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: buggle pegs tp_0
       objectReference: {fileID: 0}
+    - target: {fileID: 2122502168508490462, guid: 0e4d222f26b581c408d448700f3b36ad, type: 3}
+      propertyPath: particles
+      value: 
+      objectReference: {fileID: 5584503800399843308, guid: 1be5c5e67e4540e46a3a3abd3be01e20, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2586,6 +2594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: buggle pegs tp_2
       objectReference: {fileID: 0}
+    - target: {fileID: 6491568904722270625, guid: f97854e42487a9845a923d2cb2aaca8e, type: 3}
+      propertyPath: particles
+      value: 
+      objectReference: {fileID: 5584503800399843308, guid: 1be5c5e67e4540e46a3a3abd3be01e20, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
